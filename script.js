@@ -87,6 +87,18 @@ function myfunc(){
         document.getElementById("b9").disabled=true;
         window.alert('Player X won');
     }
+    
+    else if((b7=='x'||b7=='X')&& (b8=='x'||b8=='X')
+    &&(b9=='x'||b9=='X')){
+        document.getElementById('print').innerHTML="player X Won";
+        document.getElementById("b1").disabled=true;
+        document.getElementById("b2").disabled=true;
+        document.getElementById("b3").disabled=true;
+        document.getElementById("b4").disabled=true;
+        document.getElementById("b5").disabled=true;
+        document.getElementById("b6").disabled=true;
+        window.alert('Player X won');
+    }
     else if((b1=='o'||b1=='O')&& (b2=='o'||b2=='O')
     &&(b3=='o'||b3=='O')){
         document.getElementById('print').innerHTML="player O Won";
@@ -164,6 +176,18 @@ function myfunc(){
         document.getElementById("b9").disabled=true;
         window.alert('Player O won');
     }
+    
+    else if((b7=='o'||b7=='O')&& (b8=='o'||b8=='O')
+    &&(b9=='o'||b9=='O')){
+        document.getElementById('print').innerHTML="player O Won";
+        document.getElementById("b1").disabled=true;
+        document.getElementById("b2").disabled=true;
+        document.getElementById("b3").disabled=true;
+        document.getElementById("b4").disabled=true;
+        document.getElementById("b5").disabled=true;
+        document.getElementById("b6").disabled=true;
+        window.alert('Player O won');
+    }
     else if((b1=='x'||b1=='X'||b1=='o'||b1=='O')&&
             (b2=='x'||b2=='X'||b2=='o'||b2=='O')&&
             (b3=='x'||b3=='X'||b3=='o'||b3=='O')&&
@@ -207,7 +231,7 @@ function myfunc_3(){
         flag=0;
     }
     else{    
-        document.getElementById("b1").value="0";
+        document.getElementById("b1").value="O";
         document.getElementById("b1").disabled=true;
         flag=1;
     }
@@ -219,7 +243,7 @@ function myfunc_4(){
         flag=0;
     }
     else{    
-        document.getElementById("b2").value="0";
+        document.getElementById("b2").value="O";
         document.getElementById("b2").disabled=true;
         flag=1;
     }
@@ -231,7 +255,7 @@ function myfunc_5(){
         flag=0;
     }
     else{    
-        document.getElementById("b3").value="0";
+        document.getElementById("b3").value="O";
         document.getElementById("b3").disabled=true;
         flag=1;
     }
@@ -243,7 +267,7 @@ function myfunc_6(){
         flag=0;
     }
     else{    
-        document.getElementById("b4").value="0";
+        document.getElementById("b4").value="O";
         document.getElementById("b4").disabled=true;
         flag=1;
     }
@@ -256,7 +280,7 @@ function myfunc_7(){
         flag=0;
     }
     else{    
-        document.getElementById("b5").value="0";
+        document.getElementById("b5").value="O";
         document.getElementById("b5").disabled=true;
         flag=1;
     }
@@ -268,7 +292,7 @@ function myfunc_8(){
         flag=0;
     }
     else{    
-        document.getElementById("b6").value="0";
+        document.getElementById("b6").value="O";
         document.getElementById("b6").disabled=true;
         flag=1;
     }
@@ -280,7 +304,7 @@ function myfunc_9(){
         flag=0;
     }
     else{    
-        document.getElementById("b7").value="0";
+        document.getElementById("b7").value="O";
         document.getElementById("b7").disabled=true;
         flag=1;
     }
@@ -292,7 +316,7 @@ function myfunc_10(){
         flag=0;
     }
     else{    
-        document.getElementById("b8").value="0";
+        document.getElementById("b8").value="O";
         document.getElementById("b8").disabled=true;
         flag=1;
     }
@@ -304,7 +328,7 @@ function myfunc_11(){
         flag=0;
     }
     else{    
-        document.getElementById("b9").value="0";
+        document.getElementById("b9").value="O";
         document.getElementById("b9").disabled=true;
         flag=1;
     }
